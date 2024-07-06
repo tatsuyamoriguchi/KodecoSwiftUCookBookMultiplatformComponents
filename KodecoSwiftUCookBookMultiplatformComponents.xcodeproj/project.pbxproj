@@ -13,7 +13,41 @@
 		8C8C63022C39952900135D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C63012C39952900135D6C /* Preview Assets.xcassets */; };
 		8C8C63092C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */; };
 		8C8C630B2C399E8E00135D6C /* Platform-SpecificFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C630A2C399E8E00135D6C /* Platform-SpecificFrameworks.swift */; platformFilters = (macos, ); };
+		8C8C630D2C39DB8F00135D6C /* AdaptSwiftUILayoutsForVariousScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C630C2C39DB8F00135D6C /* AdaptSwiftUILayoutsForVariousScreenSizes.swift */; };
+		8C8C630F2C39DFE900135D6C /* DifferentDevicesPlatforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C630E2C39DFE900135D6C /* DifferentDevicesPlatforms.swift */; };
+		8C8C63172C39E2E500135D6C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8C63162C39E2E500135D6C /* WidgetKit.framework */; };
+		8C8C63192C39E2E500135D6C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8C63182C39E2E500135D6C /* SwiftUI.framework */; };
+		8C8C631C2C39E2E500135D6C /* FancyTimeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C631B2C39E2E500135D6C /* FancyTimeWidgetBundle.swift */; };
+		8C8C631E2C39E2E500135D6C /* FancyTimeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C631D2C39E2E500135D6C /* FancyTimeWidgetLiveActivity.swift */; };
+		8C8C63202C39E2E500135D6C /* FancyTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C631F2C39E2E500135D6C /* FancyTimeWidget.swift */; };
+		8C8C63222C39E2E500135D6C /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C63212C39E2E500135D6C /* AppIntent.swift */; };
+		8C8C63242C39E2E800135D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C63232C39E2E800135D6C /* Assets.xcassets */; };
+		8C8C63282C39E2E800135D6C /* FancyTimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C8C63142C39E2E500135D6C /* FancyTimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8C63262C39E2E800135D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8C62EE2C39952700135D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8C63132C39E2E500135D6C;
+			remoteInfo = FancyTimeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C8C632C2C39E2E800135D6C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C8C63282C39E2E800135D6C /* FancyTimeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C8C62F62C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodecoSwiftUCookBookMultiplatformComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,17 @@
 		8C8C63012C39952900135D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platform-SpecificCodeUsingConditionalCompilation.swift"; sourceTree = "<group>"; };
 		8C8C630A2C399E8E00135D6C /* Platform-SpecificFrameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platform-SpecificFrameworks.swift"; sourceTree = "<group>"; };
+		8C8C630C2C39DB8F00135D6C /* AdaptSwiftUILayoutsForVariousScreenSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptSwiftUILayoutsForVariousScreenSizes.swift; sourceTree = "<group>"; };
+		8C8C630E2C39DFE900135D6C /* DifferentDevicesPlatforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentDevicesPlatforms.swift; sourceTree = "<group>"; };
+		8C8C63142C39E2E500135D6C /* FancyTimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FancyTimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8C63162C39E2E500135D6C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8C8C63182C39E2E500135D6C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8C8C631B2C39E2E500135D6C /* FancyTimeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimeWidgetBundle.swift; sourceTree = "<group>"; };
+		8C8C631D2C39E2E500135D6C /* FancyTimeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C8C631F2C39E2E500135D6C /* FancyTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimeWidget.swift; sourceTree = "<group>"; };
+		8C8C63212C39E2E500135D6C /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		8C8C63232C39E2E800135D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8C63252C39E2E800135D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8C63112C39E2E500135D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8C63192C39E2E500135D6C /* SwiftUI.framework in Frameworks */,
+				8C8C63172C39E2E500135D6C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				8C8C62F82C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponents */,
+				8C8C631A2C39E2E500135D6C /* FancyTimeWidget */,
+				8C8C63152C39E2E500135D6C /* Frameworks */,
 				8C8C62F72C39952700135D6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				8C8C62F62C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponents.app */,
+				8C8C63142C39E2E500135D6C /* FancyTimeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +117,8 @@
 				8C8C62FB2C39952700135D6C /* ContentView.swift */,
 				8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */,
 				8C8C630A2C399E8E00135D6C /* Platform-SpecificFrameworks.swift */,
+				8C8C630C2C39DB8F00135D6C /* AdaptSwiftUILayoutsForVariousScreenSizes.swift */,
+				8C8C630E2C39DFE900135D6C /* DifferentDevicesPlatforms.swift */,
 				8C8C62FD2C39952900135D6C /* Assets.xcassets */,
 				8C8C62FF2C39952900135D6C /* KodecoSwiftUCookBookMultiplatformComponents.entitlements */,
 				8C8C63002C39952900135D6C /* Preview Content */,
@@ -75,6 +134,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8C8C63152C39E2E500135D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8C63162C39E2E500135D6C /* WidgetKit.framework */,
+				8C8C63182C39E2E500135D6C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8C631A2C39E2E500135D6C /* FancyTimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C8C631B2C39E2E500135D6C /* FancyTimeWidgetBundle.swift */,
+				8C8C631D2C39E2E500135D6C /* FancyTimeWidgetLiveActivity.swift */,
+				8C8C631F2C39E2E500135D6C /* FancyTimeWidget.swift */,
+				8C8C63212C39E2E500135D6C /* AppIntent.swift */,
+				8C8C63232C39E2E800135D6C /* Assets.xcassets */,
+				8C8C63252C39E2E800135D6C /* Info.plist */,
+			);
+			path = FancyTimeWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +166,34 @@
 				8C8C62F22C39952700135D6C /* Sources */,
 				8C8C62F32C39952700135D6C /* Frameworks */,
 				8C8C62F42C39952700135D6C /* Resources */,
+				8C8C632C2C39E2E800135D6C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8C8C63272C39E2E800135D6C /* PBXTargetDependency */,
 			);
 			name = KodecoSwiftUCookBookMultiplatformComponents;
 			productName = KodecoSwiftUCookBookMultiplatformComponents;
 			productReference = 8C8C62F62C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponents.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8C8C63132C39E2E500135D6C /* FancyTimeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8C63292C39E2E800135D6C /* Build configuration list for PBXNativeTarget "FancyTimeWidgetExtension" */;
+			buildPhases = (
+				8C8C63102C39E2E500135D6C /* Sources */,
+				8C8C63112C39E2E500135D6C /* Frameworks */,
+				8C8C63122C39E2E500135D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyTimeWidgetExtension;
+			productName = FancyTimeWidgetExtension;
+			productReference = 8C8C63142C39E2E500135D6C /* FancyTimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +206,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					8C8C62F52C39952700135D6C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8C8C63132C39E2E500135D6C = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -124,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				8C8C62F52C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponents */,
+				8C8C63132C39E2E500135D6C /* FancyTimeWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +242,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8C63122C39E2E500135D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8C63242C39E2E800135D6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,12 +259,33 @@
 			files = (
 				8C8C62FC2C39952700135D6C /* ContentView.swift in Sources */,
 				8C8C63092C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift in Sources */,
+				8C8C630D2C39DB8F00135D6C /* AdaptSwiftUILayoutsForVariousScreenSizes.swift in Sources */,
 				8C8C62FA2C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponentsApp.swift in Sources */,
+				8C8C630F2C39DFE900135D6C /* DifferentDevicesPlatforms.swift in Sources */,
 				8C8C630B2C399E8E00135D6C /* Platform-SpecificFrameworks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8C63102C39E2E500135D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8C631C2C39E2E500135D6C /* FancyTimeWidgetBundle.swift in Sources */,
+				8C8C63222C39E2E500135D6C /* AppIntent.swift in Sources */,
+				8C8C631E2C39E2E500135D6C /* FancyTimeWidgetLiveActivity.swift in Sources */,
+				8C8C63202C39E2E500135D6C /* FancyTimeWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8C63272C39E2E800135D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8C63132C39E2E500135D6C /* FancyTimeWidgetExtension */;
+			targetProxy = 8C8C63262C39E2E800135D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8C8C63032C39952900135D6C /* Debug */ = {
@@ -272,6 +405,7 @@
 		8C8C63062C39952900135D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KodecoSwiftUCookBookMultiplatformComponents/KodecoSwiftUCookBookMultiplatformComponents.entitlements;
@@ -310,6 +444,7 @@
 		8C8C63072C39952900135D6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KodecoSwiftUCookBookMultiplatformComponents/KodecoSwiftUCookBookMultiplatformComponents.entitlements;
@@ -345,6 +480,65 @@
 			};
 			name = Release;
 		};
+		8C8C632A2C39E2E800135D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86C8SC428C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FancyTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigabrt.KodecoSwiftUCookBookMultiplatformComponents.FancyTimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8C632B2C39E2E800135D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86C8SC428C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FancyTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FancyTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigabrt.KodecoSwiftUCookBookMultiplatformComponents.FancyTimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +556,15 @@
 			buildConfigurations = (
 				8C8C63062C39952900135D6C /* Debug */,
 				8C8C63072C39952900135D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8C63292C39E2E800135D6C /* Build configuration list for PBXNativeTarget "FancyTimeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8C632A2C39E2E800135D6C /* Debug */,
+				8C8C632B2C39E2E800135D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
