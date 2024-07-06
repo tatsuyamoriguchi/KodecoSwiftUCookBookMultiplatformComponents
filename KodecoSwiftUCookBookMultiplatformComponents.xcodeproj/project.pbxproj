@@ -11,6 +11,7 @@
 		8C8C62FC2C39952700135D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C62FB2C39952700135D6C /* ContentView.swift */; };
 		8C8C62FE2C39952900135D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C62FD2C39952900135D6C /* Assets.xcassets */; };
 		8C8C63022C39952900135D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C63012C39952900135D6C /* Preview Assets.xcassets */; };
+		8C8C63092C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		8C8C62FD2C39952900135D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C8C62FF2C39952900135D6C /* KodecoSwiftUCookBookMultiplatformComponents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KodecoSwiftUCookBookMultiplatformComponents.entitlements; sourceTree = "<group>"; };
 		8C8C63012C39952900135D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Platform-SpecificCodeUsingConditionalCompilation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				8C8C62F92C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponentsApp.swift */,
 				8C8C62FB2C39952700135D6C /* ContentView.swift */,
+				8C8C63082C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift */,
 				8C8C62FD2C39952900135D6C /* Assets.xcassets */,
 				8C8C62FF2C39952900135D6C /* KodecoSwiftUCookBookMultiplatformComponents.entitlements */,
 				8C8C63002C39952900135D6C /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8C62FC2C39952700135D6C /* ContentView.swift in Sources */,
+				8C8C63092C399A4400135D6C /* Platform-SpecificCodeUsingConditionalCompilation.swift in Sources */,
 				8C8C62FA2C39952700135D6C /* KodecoSwiftUCookBookMultiplatformComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
